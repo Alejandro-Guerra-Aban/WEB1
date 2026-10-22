@@ -13,7 +13,7 @@ El repositorio está organizado por módulos para facilitar el acceso al materia
 
 **DAW · MATERIAL ACADÉMICO**
 
-`Programación` · `Sistemas Informáticos` · `Lenguajes de Marcas` · `Bases de Datos` · `Computación en la Nube`
+`Programación` · `Sistemas Informáticos` · `Lenguajes de Marcas` · `Bases de Datos` · `Entornos de Desarrollo` · `Computación en la Nube`
 
 </div>
 
@@ -27,6 +27,7 @@ El repositorio está organizado por módulos para facilitar el acceso al materia
 | 🖥️ **Sistemas Informáticos** | Arquitectura, componentes y sistemas informáticos. | [Acceder](./Sistemas%20Informáticos/) |
 | 🌐 **Lenguajes de Marcas** | Lenguajes de marcas y tecnologías web. | [Acceder](./WEB1-Lenguajes%20de%20Marcas/) |
 | 🗄️ **Bases de Datos** | Material académico relacionado con las bases de datos. | [Acceder](./Bases%20de%20datos/) |
+| 🛠️ **Entornos de Desarrollo** | Herramientas, configuración y entornos utilizados durante el desarrollo de software. | [Acceder](./Entornos%20de%20Desarrollo/) |
 | ☁️ **Fundamentos de Computación en la Nube** | Conceptos y fundamentos de la computación en la nube. | [Acceder](./Fundamentos%20de%20Computaci%C3%B3n%20en%20la%20Nube/) |
 
 ---
@@ -69,6 +70,16 @@ Directorio dedicado al material del módulo de **Bases de Datos**, con los conte
 
 ---
 
+## 🛠️ Entornos de Desarrollo
+
+Material académico correspondiente al módulo de **Entornos de Desarrollo**, centrado en el conocimiento y la utilización de herramientas para desarrollar, depurar, probar y mantener aplicaciones de software.
+
+Los contenidos podrán incluir el uso de entornos de desarrollo integrados (IDE), sistemas de control de versiones, herramientas de depuración, pruebas de software y documentación técnica.
+
+**Acceso directo:** [Entornos de Desarrollo](./Entornos%20de%20Desarrollo/)
+
+---
+
 ## ☁️ Fundamentos de Computación en la Nube
 
 Espacio destinado a recopilar los contenidos relacionados con los fundamentos de la computación en la nube y sus principales conceptos.
@@ -93,6 +104,8 @@ WEB1/
 ├── WEB1-Lenguajes de Marcas/
 │
 ├── Bases de datos/
+│
+├── Entornos de Desarrollo/
 │
 └── Fundamentos de Computación en la Nube/
 ```
@@ -137,6 +150,7 @@ MÓDULO/
 - [Sistemas Informáticos](./Sistemas%20Informáticos/)
 - [Lenguajes de Marcas](./WEB1-Lenguajes%20de%20Marcas/)
 - [Bases de Datos](./Bases%20de%20datos/)
+- [Entornos de Desarrollo](./Entornos%20de%20Desarrollo/)
 - [Fundamentos de Computación en la Nube](./Fundamentos%20de%20Computaci%C3%B3n%20en%20la%20Nube/)
 
 ### Unidades de trabajo
