@@ -174,7 +174,77 @@ public class Clase06_ejercicios_estructura_decision {
         
         // 7. Que pida 3 numeros y los muestre en pantalla de mayor a menor en lineas distintas. En caso de haber numeros iguales se pintan en la misma linea.
         
+        System.out.print("Introduce tres numeros: ");
+        int num7 = sc.nextInt();
+        int num8 = sc.nextInt();
+        int num9 = sc.nextInt();
+
+        if (num7 == num8 && num8 == num9) {
+            System.out.println(num7 + " " + num8 + " " + num9);
+        } 
         
+        else if (num7 == num8) {
+            if (num7 > num9) {
+                System.out.println(num7 + " " + num8);
+                System.out.println(num9);
+            } else {
+                System.out.println(num9);
+                System.out.println(num7 + " " + num8);
+            }
+        } 
+
+        else if (num7 == num9) {
+            if (num7 > num8) {
+                System.out.println(num7 + " " + num9);
+                System.out.println(num8);
+            } else {
+                System.out.println(num8);
+                System.out.println(num7 + " " + num9);
+            }
+        } 
+
+        else if (num8 == num9) {
+            if (num8 > num7) {
+                System.out.println(num8 + " " + num9);
+                System.out.println(num7);
+            } else {
+                System.out.println(num7);
+                System.out.println(num8 + " " + num9);
+            }
+        } 
+
+        else {
+            if (num7 > num8 && num7 > num9) {
+                System.out.println(num7);
+                if (num8 > num9) {
+                    System.out.println(num8);
+                    System.out.println(num9);
+                } else {
+                    System.out.println(num9);
+                    System.out.println(num8);
+                }
+            } 
+            else if (num8 > num7 && num8 > num9) {
+                System.out.println(num8);
+                if (num7 > num9) {
+                    System.out.println(num7);
+                    System.out.println(num9);
+                } else {
+                    System.out.println(num9);
+                    System.out.println(num7);
+                }
+            } 
+            else {
+                System.out.println(num9);
+                if (num7 > num8) {
+                    System.out.println(num7);
+                    System.out.println(num8);
+                } else {
+                    System.out.println(num8);
+                    System.out.println(num7);
+                }
+            }
+        }
         
         
         // 8. Que pida un numero y diga si es positivo o negativo.
@@ -319,7 +389,7 @@ public class Clase06_ejercicios_estructura_decision {
         System.out.println("1. Archivo");
         System.out.println("2. Buscar");
         System.out.println("3. Salir");
-        System.out.println("Introduce una opcion: ");
+        System.out.print("Introduce una opcion: ");
         
         byte opcion = sc.nextByte();
         if (opcion == 1) {
@@ -337,7 +407,7 @@ public class Clase06_ejercicios_estructura_decision {
         
         // 17. Que tome dos numeros del 1 al 5 y diga si ambos son primos.
         
-        System.out.println("Introduce dos numeros del 1 al 5: ");
+        System.out.print("Introduce dos numeros del 1 al 5: ");
         int ejer17num1 = sc.nextInt();
         int ejer17num2 = sc.nextInt();
         
@@ -350,5 +420,159 @@ public class Clase06_ejercicios_estructura_decision {
         else {
             System.out.println("Los numeros introducidos no son primos");
         }
+        
+        // 18. Que tome dos numeros y diga si ambos son pares o impares.
+        
+        System.out.print("Introduce dos numeros: ");
+        byte ejer18num1 = sc.nextByte();
+        byte ejer18num2 = sc.nextByte();
+        
+        if (ejer18num1%2==0 && ejer18num2%2 == 0) { // Precedencia de operadores
+            System.out.println("Es par");
+        }
+        else {
+            System.out.println("Es impar");
+        }
+        
+        // 19. Que tome tres numeros y diga si la multiplicacion de los dos primeros es igual al tercero.
+        
+        System.out.print("Introduce tres numeros: ");
+        byte ejer19num1 = sc.nextByte();
+        byte ejer19num2 = sc.nextByte();
+        byte ejer19num3 = sc.nextByte();
+        
+        if (ejer19num1 * ejer19num2 == ejer19num3) {
+            System.out.println("La multiplicacion de el primer numero x segundo numero es igual al tercer numero");
+        }
+        else {
+            System.out.println("La multiplicacion de el primer numero x segundo numero es diferente al tercer numero");
+        }
+        
+        // 20. Que tome tres numeros y diga si el tercero es el resto de la division de los dos primeros.
+        
+        System.out.print("Introduce tres numeros: ");
+        byte ejer20num1 = sc.nextByte();
+        byte ejer20num2 = sc.nextByte();
+        byte ejer20num3 = sc.nextByte();
+        
+        if (ejer20num1 % ejer20num2 == ejer20num3) {
+            System.out.println("El resto de la division de el primer numero / segundo numero es igual al tercer numero");
+        }
+        else {
+            System.out.println("El resto de la division de el primer numero / segundo numero es diferente al tercer numero");
+        }
+        
+        // 21. Que muestre un menu donde las opciones sean Equilatero, Isosceles y Escaleno, pida una opcion y calcule el perimetro del triangulo seleccionado.
+        
+        System.out.println("1. Equilatero");
+        System.out.println("2. Isosceles");
+        System.out.println("3. Escaleno");
+        
+        System.out.print("Selecciona una opcion: ");
+        
+        int ejer21opcion = sc.nextInt();
+        double perimetro = 0;
+
+        if (ejer21opcion == 1) {
+            System.out.print("Introduce la medida del lado: ");
+            double ladoEquilatero = sc.nextDouble();
+            perimetro = 3 * ladoEquilatero;
+            System.out.println("El perimetro del triangulo equilatero es: " + perimetro);
+        } 
+        else if (ejer21opcion == 2) {
+            System.out.print("Introduce la medida de los dos lados iguales: ");
+            double ladoIsosceles = sc.nextDouble();
+            System.out.print("Introduce la medida de la base: ");
+            double base = sc.nextDouble();
+            perimetro = (2 * ladoIsosceles) + base;
+            System.out.println("El perimetro del triangulo isosceles es: " + perimetro);
+        } 
+        else if (ejer21opcion == 3) {
+            System.out.print("Introduce la medida del primer lado: ");
+            double lado1 = sc.nextDouble();
+            System.out.print("Introduce la medida del segundo lado: ");
+            double lado2 = sc.nextDouble();
+            System.out.print("Introduce la medida del tercer lado: ");
+            double lado3 = sc.nextDouble();
+            perimetro = lado1 + lado2 + lado3;
+            System.out.println("El perimetro del triangulo escaleno es: " + perimetro);
+        } 
+        else {
+            System.out.println("Opcion no valida.");
+        }
+        
+        // 22. Que pase de Kg a otra unidad de medida de masa, mostrar en pantalla un menu con las opciones posibles.
+
+        // Mostrar el menú en pantalla
+        System.out.println("1. Convertir a Gramos");
+        System.out.println("2. Convertir a Libras");
+        System.out.println("3. Convertir a Onzas");
+        System.out.println("4. Convertir a Toneladas");
+        System.out.print("Elija una opción (1-4): ");
+        int ejer22opcion = sc.nextInt();
+        
+            System.out.print("Ingrese la cantidad en Kilogramos (kg): ");
+            double kg = sc.nextDouble();
+
+            // Realizar las conversiones usando solo if / else if / else
+            if (ejer22opcion == 1) {
+                double gramos = kg * 1000;
+                System.out.println(kg + " kg equivalen a " + gramos + " g");
+            } 
+            else if (ejer22opcion == 2) {
+                double libras = kg * 2.20462;
+                System.out.println(kg + " kg equivalen a " + libras + " lb");
+            } 
+            else if (ejer22opcion == 3) {
+                double onzas = kg * 35.274;
+                System.out.println(kg + " kg equivalen a " + onzas + " oz");
+            } 
+            else {
+                double toneladas = kg / 1000;
+                System.out.println(kg + " kg equivalen a " + toneladas + " t");
+            }
+            
+            // 23. Que lea un importe bruto y calcule su importe neto, si es mayor de 15.000 se le aplicara un 16% de impuestos, en caso contrario se le aplicara un 10%.
+            
+            System.out.print("Introduce un importe en bruto: ");
+            
+            double importebruto = sc.nextDouble();
+            double importeneto = 0;
+            
+            if (importebruto > 15000) {
+                importeneto = importebruto * 0.84;
+            }
+            else {
+                importeneto = importebruto * 0.90;
+            }
+            System.out.println("El importe neto es: " + importeneto);
+            
+            // 24. Que lea una hora en hora:minutos:segundos y diga la hora que es un segundo despues.
+            
+            System.out.print("Introduce una hora: ");
+            int hora = sc.nextInt();
+            System.out.print("Introduce los minutos: ");
+            int minutos = sc.nextInt();
+            System.out.print("Introduce los segundos: ");
+            int segundos = sc.nextInt();
+            
+            segundos ++;
+            
+            if (segundos >= 60) {
+                minutos ++;
+            }
+            if (minutos > 60) {
+                hora ++;
+            }
+            if (segundos >= 60) {
+                segundos = 0;
+                minutos ++;
+            }
+            if (minutos >= 60) {
+                minutos = 0;
+                hora ++;
+            }
+            
+            System.out.println("La hora despues de un segundo seria: " + hora + ":" + minutos + ":" + segundos);
+        }
     }
-}
