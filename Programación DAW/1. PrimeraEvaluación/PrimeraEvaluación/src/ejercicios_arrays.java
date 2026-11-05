@@ -13,20 +13,88 @@ public class ejercicios_arrays {
 
     public static void main(String[] args) {
         System.out.println("Empezamos");
-
-        // ejer1();
-        // ejer2();
-        // ejer3();
-        // ejer4();
-        // ejer5();
-        // ejer6();
-        // ejer7();
-        // ejer8();
-        // ejer9();
-         ejer10();
-        // ejer11();
-        // ejer12();
-
+        Scanner sc = new Scanner(System.in);
+        System.out.println(" - MENU -");
+        System.out.println("1. Ejercicio 1");
+        System.out.println("2. Ejercicio 2");
+        System.out.println("3. Ejercicio 3");
+        System.out.println("4. Ejercicio 4");
+        System.out.println("5. Ejercicio 5");
+        System.out.println("6. Ejercicio 6");
+        System.out.println("7. Ejercicio 7");
+        System.out.println("8. Ejercicio 8");
+        System.out.println("9. Ejercicio 9");
+        System.out.println("10. Ejercicio 10");
+        System.out.println("11. Ejercicio 11");
+        System.out.println("12. Ejercicio 12");
+        System.out.println("13. Ejercicio 13");
+        System.out.println("14. Ejercicio 14");
+        System.out.println("15. Ejercicio 15");
+        System.out.println("16. Ejercicio 16");
+        System.out.println("17. Ejercicio 17");
+        System.out.println("18. Ejercicio 18");
+        System.out.println("19. Ejercicio 19");
+        System.out.print("\nIntroduce opcion: ");
+        byte opcion = sc.nextByte();
+        switch(opcion) {
+            case 1:
+                ejer1();
+                break;
+            case 2:
+                ejer2();
+                break;
+            case 3:
+                ejer3();
+                break;
+            case 4:
+                ejer4();
+                break;
+            case 5:
+                ejer5();
+                break;
+            case 6:
+                ejer6();
+                break;
+            case 7:
+                ejer7();
+                break;
+            case 8:
+                ejer8();
+                break;
+            case 9:
+                ejer9();
+                break;
+            case 10:
+                ejer10();
+                break;
+            case 11:
+                ejer11();
+                break;
+            case 12:
+                ejer12();
+                break;
+            case 13:
+                ejer13();
+                break;
+            case 14:
+                ejer14();
+                break;
+            case 15:
+                ejer15();
+                break;
+            case 16:
+                ejer16();
+                break;
+            case 17:
+                ejer17();
+                break;
+            case 18:
+                ejer18();
+                break;
+            case 19:
+                ejer19();
+                break;
+        }
         System.out.println("\nFin");
     }
 
@@ -277,5 +345,224 @@ public class ejercicios_arrays {
                 System.out.print(", ");
             }
         }
+    }
+    public static void ejer13() {
+        // 13. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, desplaza todos los elementos una posición a la derecha y muestra el array
+        int arr_13[]; // Declaración
+        arr_13 = new int[10];
+        for (int i = 0; i < arr_13.length; i++) {
+            arr_13[i] = (int) (Math.random() * 10);
+            System.out.println(i + ":" + arr_13[i]);
+        }
+        // Desplazar todos los elementos una posición a la derecha
+        int ultimo = arr_13[arr_13.length - 1];
+        for (int i = arr_13.length - 1; i > 0; i--) {
+            arr_13[i] = arr_13[i - 1];
+        }
+        arr_13[0] = ultimo;
+
+        // Mostrar array desplazado
+        System.out.println("\nArray desplazado a la derecha:");
+        for (int i = 0; i < arr_13.length; i++) {
+            System.out.println(i + ":" + arr_13[i]);
+        }
+    }
+    public static void ejer14() {
+        // 14. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, desplaza todos los elementos una posición a la izquierda y muestra el array
+        int arr_14[]; // Declaración
+        arr_14 = new int[10];
+        for (int i = 0; i < arr_14.length; i++) {
+            arr_14[i] = (int) (Math.random() * 10);
+            System.out.println(i + ":" + arr_14[i]);
+        }
+        // Desplazar todos los elementos una posición a la izquierda
+        int primero = arr_14[0];
+        for (int i = 0; i < arr_14.length - 1; i++) {
+            arr_14[i] = arr_14[i + 1];
+        }
+        arr_14[arr_14.length - 1] = primero;
+
+        // Mostrar array desplazado
+        System.out.println("\nArray desplazado a la izquierda:");
+        for (int i = 0; i < arr_14.length; i++) {
+            System.out.println(i + ":" + arr_14[i]);
+        }
+    }
+    public static void ejer15() {
+        // 15. Rellenar un array de tamaño 10 con números aleatorios, muéstralo. A continuación, invierte todos los elementos y muestra el array. El elemento de la posición 0 se intercambia por el de la 9, la 1 por la 8 ...
+
+        int arr_15[] = new int[10];
+
+        // Rellenar con números aleatorios entre 0 y 9
+        for (int i = 0; i < arr_15.length; i++) {
+            arr_15[i] = (int) (Math.random() * 10);
+        }
+
+        // Mostrar array original
+        System.out.println("Array original:");
+        for (int i = 0; i < arr_15.length; i++) {
+            System.out.println(i + ":" + arr_15[i]);
+        }
+
+        // Invertir el array
+        for (int i = 0; i < arr_15.length / 2; i++) {
+            int temp = arr_15[i];
+            arr_15[i] = arr_15[arr_15.length - 1 - i];
+            arr_15[arr_15.length - 1 - i] = temp;
+        }
+
+        // Mostrar array invertido
+        System.out.println("\nArray invertido:");
+        for (int i = 0; i < arr_15.length; i++) {
+            System.out.println(i + ":" + arr_15[i]);
+        }
+    }
+    public static void ejer16() {
+        // 16. Crea un array de números y otro de String de 10 posiciones donde insertaremos notas entre 0 y 10 (debemos controlar que inserte una nota valida), pudiendo ser decimal la nota en el array de números, en el de Strings se insertaran los nombres de los alumnos.
+        // Después, crearemos un array de String donde insertaremos el resultado de la nota con palabras.
+        // Si la nota esta entre 0 y 4,99 , sera un suspenso
+        // Si esta entre 5 y 6,99 , sera un bien.
+        // Si esta entre 7 y 8,99 sera un notable.
+        // Si esta entre 9 y 10 sera un sobresaliente.
+        // Muestra por pantalla, el alumno su nota y su resultado en palabras.
+    }
+    
+    public static void ejer17() {
+        // 17. Crea dos arrays de tamaño 5 y rellenalos manualmente. El programa deberá indicar si los dos arrays son iguales
+        // Crear los dos arrays de tamaño 5
+        int arr_17 [] = new int[5];
+        int arr_17_2 [] = new int[5];
+
+        // Rellenar el primer array
+        arr_17[0] = 1;
+        arr_17[1] = 2;
+        arr_17[2] = 3;
+        arr_17[3] = 4;
+        arr_17[4] = 5;
+
+        // Rellenar el segundo array
+        arr_17_2[0] = 1;
+        arr_17_2[1] = 2;
+        arr_17_2[2] = 3;
+        arr_17_2[3] = 4;
+        arr_17_2[4] = 5;
+
+        boolean iguales = true;
+
+        // Comparar los dos arrays
+        for (int i = 0; i < 5; i++) {
+            if (arr_17[i] != arr_17_2[i]) {
+                iguales = false;
+            }
+        }
+
+        // Mostrar el resultado
+        if (iguales) {
+            System.out.println("\nLos arrays son iguales");
+        } else {
+            System.out.println("Los arrays son diferentes");
+        }
+    }
+    public static void ejer18() {
+        // 18. Pide al usuario que introduzca un número. Los dígitos de dicho número deberán pasarse a un array. A continuación, deberá indicarse si el número es capicua (se lee igual en los dos sentidos)
+        Scanner sc = new Scanner(System.in);
+
+        // Pedir un número al usuario
+        System.out.print("Introduce un numero: ");
+        int numero = sc.nextInt();
+
+        int auxiliar = numero;
+        int contador = 0;
+
+        // Contar los dígitos del número
+        while (auxiliar > 0) {
+            contador++;
+            auxiliar = auxiliar / 10;
+        }
+
+        // Crear el array
+        int arr_18 [] = new int[contador];
+
+        // Guardar los dígitos en el array
+        auxiliar = numero;
+
+        for (int i = contador - 1; i >= 0; i--) {
+            arr_18[i] = auxiliar % 10;
+            auxiliar = auxiliar / 10;
+        }
+
+        // Comprobar si es capicúa
+        boolean capicua = true;
+
+        for (int i = 0; i < contador / 2; i++) {
+            if (arr_18[i] != arr_18[contador - 1 - i]) {
+                capicua = false;
+            }
+        }
+
+        // Mostrar el resultado
+        if (capicua) {
+            System.out.println("El número es capicua.");
+        } else {
+            System.out.println("El número no es capicua.");
+        }
+    }
+    public static void ejer19() {
+        // 19. Genera un número aleatorio entre 5 y 10, ambos incluidos. A continuación, crea un array cuya longitud sea la del número generado y rellenado con números aleatorios. El array no debe mostrarse. Después, el programa pedirá números al usuario que deberá adivinar los números contenidos en el array. Para ello, el programa sólo permitirá 3 fallos, es decir, 3 números NO CONTENIDOS en el array que el usuario haya seleccionado. El programa terminará cuando el usuario haya adivinado todos los números, o cuando haya fallado 3 veces o si el usuario introduce un número negativo.
+        
+        Scanner sc = new Scanner(System.in);
+
+        // Generar longitud aleatoria entre 5 y 10
+        int longitud = (int) (Math.random() * 6) + 5;
+
+        // Crear y rellenar el array
+        int arr_19[] = new int[longitud];
+
+        for (int i = 0; i < longitud; i++) {
+            arr_19[i] = (int) (Math.random() * 10) + 1;
+        }
+
+        int fallos = 0;
+        int acertados = 0;
+        boolean continuar = true;
+
+        // Comenzar el juego
+        while (fallos < 3 && acertados < longitud && continuar) {
+
+            System.out.print("Introduce un numero: ");
+            int numero = sc.nextInt();
+
+            if (numero < 0) {
+                continuar = false;
+            } else {
+
+                boolean encontrado = false;
+
+                // Buscar el número en el array
+                for (int i = 0; i < longitud; i++) {
+
+                    if (arr_19[i] == numero && !encontrado) {
+                        encontrado = true;
+                        arr_19[i] = -1;
+                        acertados++;
+                    }
+                }
+
+                if (encontrado) {
+                    System.out.println("Numero acertado.");
+                } else {
+                    fallos++;
+                    System.out.println("Numero incorrecto. Fallos: " + fallos);
+                }
+            }
+        }
+
+        // Mostrar resultado
+        if (acertados == longitud) {
+            System.out.println("¡Has adivinado todos los números!");
+        } else {
+            System.out.println("Fin del juego.");
+        }
+
     }
 }
