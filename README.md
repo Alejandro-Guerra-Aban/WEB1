@@ -1,326 +1,486 @@
-
-# WEB1
-
-### Desarrollo de Aplicaciones Web · Material académico
-
-Repositorio académico destinado a recopilar, organizar y documentar los apuntes, ejercicios, prácticas y recursos del **Ciclo Formativo de Grado Superior en Desarrollo de Aplicaciones Web (DAW)**.
-
-El repositorio está organizado por módulos para facilitar el acceso al material y centralizar los contenidos desarrollados durante el ciclo.
-
----
+# 💻 WEB1 · Desarrollo de Aplicaciones Web
 
 <div align="center">
 
-**DAW · MATERIAL ACADÉMICO**
+  <img src="https://img.shields.io/badge/WEB1-Academic%20Repository-2563EB?style=for-the-badge&logo=github&logoColor=white" alt="WEB1 Repository">
 
-`Programación` · `Sistemas Informáticos` · `Lenguajes de Marcas` · `Bases de Datos` · `Entornos de Desarrollo` · `Computación en la Nube`
+  <p><strong>Repositorio de material académico · Ciclo Formativo de Grado Superior</strong></p>
+  <p>Apuntes · Ejercicios · Prácticas · Documentación · Recursos</p>
+
+  <br>
+
+  <a href="#-módulos-académicos">
+    <img src="https://img.shields.io/badge/Explorar_módulos-2563EB?style=flat-square" alt="Explorar módulos">
+  </a>
+  <a href="#-navegación">
+    <img src="https://img.shields.io/badge/Navegación-64748B?style=flat-square" alt="Navegación">
+  </a>
+  <a href="#-recursos">
+    <img src="https://img.shields.io/badge/Recursos-0F766E?style=flat-square" alt="Recursos">
+  </a>
+
+  <br><br>
+
+  ![GitHub](https://img.shields.io/badge/Platform-GitHub-181717?style=flat-square&logo=github)
+  ![Markdown](https://img.shields.io/badge/Format-Markdown-000000?style=flat-square&logo=markdown)
+  ![Git](https://img.shields.io/badge/Version_Control-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 </div>
 
 ---
 
-## 📚 Contenido del repositorio
+## 📌 Acerca del proyecto
 
-| Módulo | Descripción | Acceso |
-|:---|:---|:---:|
-| 💻 **Programación DAW** | Material, ejercicios y prácticas de programación. | [Acceder](./Programación%20DAW/) |
-| 🖥️ **Sistemas Informáticos** | Arquitectura, componentes y sistemas informáticos. | [Acceder](./Sistemas%20Informáticos/) |
-| 🌐 **Lenguajes de Marcas** | Lenguajes de marcas y tecnologías web. | [Acceder](./WEB1-Lenguajes%20de%20Marcas/) |
-| 🗄️ **Bases de Datos** | Material académico relacionado con las bases de datos. | [Acceder](./Bases%20de%20datos/) |
-| 🛠️ **Entornos de Desarrollo** | Herramientas, configuración y entornos utilizados durante el desarrollo de software. | [Acceder](./Entornos%20de%20Desarrollo/) |
-| ☁️ **Fundamentos de Computación en la Nube** | Conceptos y fundamentos de la computación en la nube. | [Acceder](./Fundamentos%20de%20Computaci%C3%B3n%20en%20la%20Nube/) |
+**WEB1** es un repositorio académico dedicado a recopilar, organizar y documentar los contenidos desarrollados durante el Ciclo Formativo de Grado Superior en **Desarrollo de Aplicaciones Web (DAW)**.
 
----
+Su finalidad es centralizar el material formativo y facilitar el acceso a los diferentes módulos, unidades de trabajo, ejercicios y prácticas.
 
-## 💻 Programación DAW
+La estructura está diseñada para facilitar la consulta, el mantenimiento y la ampliación progresiva de los contenidos.
 
-Material correspondiente al módulo de **Programación**, orientado al estudio de los conceptos fundamentales, la resolución de problemas y el desarrollo de ejercicios prácticos.
+<div align="center">
 
-**Acceso directo:** [Programación DAW](./Programación%20DAW/)
+| 📚 Material | 💻 Prácticas | 📝 Documentación | 🌐 Recursos |
+|:---:|:---:|:---:|:---:|
+| Apuntes y teoría | Ejercicios y actividades | Guías técnicas | Referencias oficiales |
+
+</div>
 
 ---
 
-## 🖥️ Sistemas Informáticos
+## 🧭 Navegación
 
-Material del módulo de **Sistemas Informáticos**, dedicado al conocimiento de los equipos, sus componentes y su funcionamiento.
+Accede directamente a cualquiera de las secciones del repositorio.
 
-### U.T. 1 · Arquitectura y componentes del PC
+<details open>
+<summary><strong>📚 Módulos académicos</strong></summary>
 
-Unidad de trabajo centrada en la arquitectura de los equipos informáticos y en la identificación y comprensión de sus principales componentes.
+- [💻 Programación DAW](#-01--programación-daw)
+- [🖥️ Sistemas Informáticos](#️-02--sistemas-informáticos)
+- [🌐 Lenguajes de Marcas](#-03--lenguajes-de-marcas)
+- [🗄️ Bases de Datos](#️-04--bases-de-datos)
+- [🛠️ Entornos de Desarrollo](#️-05--entornos-de-desarrollo)
+- [☁️ Fundamentos de Computación en la Nube](#️-06--fundamentos-de-computación-en-la-nube)
 
-**Acceso directo:** [U.T. 1 · Arquitectura y componentes del PC](./Sistemas%20Informáticos/U.T.%201.-%20Arquitectura%20y%20componentes%20del%20PC/)
+</details>
 
-**Directorio del módulo:** [Sistemas Informáticos](./Sistemas%20Informáticos/)
+<details>
+<summary><strong>⚙️ Organización y documentación</strong></summary>
+
+- [Estructura del repositorio](#-estructura-del-repositorio)
+- [Organización del material](#-organización-del-material)
+- [Convenciones de archivos](#-convenciones-de-archivos)
+- [Documentación de prácticas](#-documentación-de-prácticas)
+
+</details>
+
+<details>
+<summary><strong>🌿 Desarrollo y mantenimiento</strong></summary>
+
+- [Control de versiones](#-control-de-versiones)
+- [Convenciones de commits](#-convenciones-de-commits)
+- [Mantenimiento y evolución](#-mantenimiento-y-evolución)
+
+</details>
+
+<details>
+<summary><strong>📖 Información adicional</strong></summary>
+
+- [Recursos de referencia](#-recursos)
+- [Autoría](#-autoría)
+- [Licencia](#-licencia)
+
+</details>
 
 ---
 
-## 🌐 Lenguajes de Marcas
+## 📚 Módulos académicos
 
-Material académico relacionado con los lenguajes de marcas, la estructuración de documentos y las tecnologías utilizadas en el desarrollo web.
+El repositorio se organiza en seis áreas formativas, cada una con su propio directorio y contenidos específicos.
 
-**Acceso directo:** [WEB1-Lenguajes de Marcas](./WEB1-Lenguajes%20de%20Marcas/)
+<div align="center">
 
----
+| | Módulo | Descripción | Acceso |
+|:---:|:---|:---|:---:|
+| 💻 | **Programación DAW** | Algoritmos, lógica y desarrollo de software. | [Abrir ↗](./Programación%20DAW/) |
+| 🖥️ | **Sistemas Informáticos** | Arquitectura, componentes y sistemas. | [Abrir ↗](./Sistemas%20Informáticos/) |
+| 🌐 | **Lenguajes de Marcas** | HTML, documentos y tecnologías web. | [Abrir ↗](./WEB1-Lenguajes%20de%20Marcas/) |
+| 🗄️ | **Bases de Datos** | Modelado, almacenamiento y gestión de datos. | [Abrir ↗](./Bases%20de%20datos/) |
+| 🛠️ | **Entornos de Desarrollo** | IDE, depuración y control de versiones. | [Abrir ↗](./Entornos%20de%20Desarrollo/) |
+| ☁️ | **Computación en la Nube** | Infraestructura y servicios cloud. | [Abrir ↗](./Fundamentos%20de%20Computaci%C3%B3n%20en%20la%20Nube/) |
 
-## 🗄️ Bases de Datos
-
-Directorio dedicado al material del módulo de **Bases de Datos**, con los contenidos académicos incorporados al repositorio.
-
-**Acceso directo:** [Bases de datos](./Bases%20de%20datos/)
-
----
-
-## 🛠️ Entornos de Desarrollo
-
-Material académico correspondiente al módulo de **Entornos de Desarrollo**, centrado en el conocimiento y la utilización de herramientas para desarrollar, depurar, probar y mantener aplicaciones de software.
-
-Los contenidos podrán incluir el uso de entornos de desarrollo integrados (IDE), sistemas de control de versiones, herramientas de depuración, pruebas de software y documentación técnica.
-
-**Acceso directo:** [Entornos de Desarrollo](./Entornos%20de%20Desarrollo/)
+</div>
 
 ---
 
-## ☁️ Fundamentos de Computación en la Nube
+### 💻 01 · Programación DAW
 
-Espacio destinado a recopilar los contenidos relacionados con los fundamentos de la computación en la nube y sus principales conceptos.
+Material académico dedicado a los fundamentos de la programación, la lógica computacional, los algoritmos y la resolución de problemas mediante código.
 
-**Acceso directo:** [Fundamentos de Computación en la Nube](./Fundamentos%20de%20Computaci%C3%B3n%20en%20la%20Nube/)
+**Contenidos:**
+- Fundamentos de programación.
+- Algoritmos y estructuras de control.
+- Resolución de problemas.
+- Ejercicios y actividades prácticas.
+
+<div align="right">
+
+[📂 Explorar Programación DAW →](./Programación%20DAW/)
+
+</div>
+
+---
+
+### 🖥️ 02 · Sistemas Informáticos
+
+Contenidos relacionados con la arquitectura de los equipos, sus componentes, los sistemas informáticos y su funcionamiento.
+
+**Unidades de trabajo disponibles:**
+
+<details open>
+<summary><strong>📁 U.T. 1 · Arquitectura y componentes del PC</strong></summary>
+
+Unidad centrada en el conocimiento de la arquitectura de los equipos informáticos y la identificación de sus principales componentes.
+
+**Acceso:**
+
+[📂 Abrir unidad de trabajo](./Sistemas%20Informáticos/U.T.%201.-%20Arquitectura%20y%20componentes%20del%20PC/)
+
+</details>
+
+<div align="right">
+
+[📂 Explorar Sistemas Informáticos →](./Sistemas%20Informáticos/)
+
+</div>
+
+---
+
+### 🌐 03 · Lenguajes de Marcas
+
+Material relacionado con la estructuración de documentos, los lenguajes de marcas y las tecnologías fundamentales para el desarrollo web.
+
+**Contenidos:**
+- Lenguajes de marcas.
+- Estructuración de documentos.
+- Tecnologías web.
+- Documentación y ejercicios.
+
+<div align="right">
+
+[📂 Explorar Lenguajes de Marcas →](./WEB1-Lenguajes%20de%20Marcas/)
+
+</div>
+
+---
+
+### 🗄️ 04 · Bases de Datos
+
+Material académico dedicado al almacenamiento, organización, modelado y gestión de información mediante sistemas de bases de datos.
+
+**Contenidos:**
+- Modelado de datos.
+- Sistemas de bases de datos.
+- Organización de información.
+- Ejercicios y documentación.
+
+<div align="right">
+
+[📂 Explorar Bases de Datos →](./Bases%20de%20datos/)
+
+</div>
+
+---
+
+### 🛠️ 05 · Entornos de Desarrollo
+
+Contenidos relacionados con las herramientas y metodologías utilizadas en el desarrollo de software.
+
+**Contenidos:**
+- Entornos de desarrollo integrados (IDE).
+- Herramientas de depuración.
+- Pruebas de software.
+- Sistemas de control de versiones.
+- Documentación técnica.
+
+<div align="right">
+
+[📂 Explorar Entornos de Desarrollo →](./Entornos%20de%20Desarrollo/)
+
+</div>
+
+---
+
+### ☁️ 06 · Fundamentos de Computación en la Nube
+
+Material sobre los principios de la computación en la nube, los modelos de servicio, la infraestructura y las principales tecnologías cloud.
+
+**Contenidos:**
+- Fundamentos de cloud computing.
+- Modelos de servicio.
+- Infraestructura en la nube.
+- Tecnologías y servicios cloud.
+
+<div align="right">
+
+[📂 Explorar Computación en la Nube →](./Fundamentos%20de%20Computaci%C3%B3n%20en%20la%20Nube/)
+
+</div>
 
 ---
 
 ## 🗂️ Estructura del repositorio
 
+La estructura principal sigue una organización modular que permite localizar los contenidos de forma sencilla y facilita la incorporación de nuevos materiales.
+
 ```text
 WEB1/
 │
-├── README.md
-├── LICENSE
+├── 📄 README.md
+├── 📜 LICENSE
 │
-├── Programación DAW/
+├── 💻 Programación DAW/
 │
-├── Sistemas Informáticos/
+├── 🖥️ Sistemas Informáticos/
 │   └── U.T. 1.- Arquitectura y componentes del PC/
 │
-├── WEB1-Lenguajes de Marcas/
+├── 🌐 WEB1-Lenguajes de Marcas/
 │
-├── Bases de datos/
+├── 🗄️ Bases de datos/
 │
-├── Entornos de Desarrollo/
+├── 🛠️ Entornos de Desarrollo/
 │
-└── Fundamentos de Computación en la Nube/
+└── ☁️ Fundamentos de Computación en la Nube/
 ```
 
-Esta representación muestra los directorios principales. Cada módulo puede contener subdirectorios, ejercicios, prácticas y documentación adicional.
+> **Nota:** la estructura representa los directorios principales. Cada módulo puede contener subdirectorios, actividades, ejercicios y documentación adicional.
 
----
+### 📁 Organización del material
 
-## 📋 Organización del material
-
-Los contenidos se organizan por módulos y, cuando corresponde, por unidades de trabajo, temas o actividades.
+Cuando las características de los contenidos lo requieran, se recomienda utilizar la siguiente estructura:
 
 ```text
 MÓDULO/
 │
-├── Unidad de trabajo/
-│   ├── Material/
-│   ├── Ejercicios/
-│   └── Prácticas/
+├── 📚 Unidad de trabajo/
+│   ├── 📖 Material/
+│   ├── ✏️ Ejercicios/
+│   └── 🔧 Prácticas/
 │
-├── Actividades/
+├── 📋 Actividades/
 │
-└── Documentación/
+└── 📄 Documentación/
 ```
 
-### Criterios de organización
+### 📌 Criterios de organización
 
-- Una carpeta por módulo.
-- Subdirectorios para unidades y actividades cuando sea necesario.
-- Separación del material, los ejercicios y las prácticas cuando proceda.
-- Nombres descriptivos y consistentes.
-- Documentación específica para las actividades que lo requieran.
-- Evitar duplicidades y mantener actualizados los enlaces internos.
-
----
-
-## 🧭 Navegación rápida
-
-### Módulos
-
-- [Programación DAW](./Programación%20DAW/)
-- [Sistemas Informáticos](./Sistemas%20Informáticos/)
-- [Lenguajes de Marcas](./WEB1-Lenguajes%20de%20Marcas/)
-- [Bases de Datos](./Bases%20de%20datos/)
-- [Entornos de Desarrollo](./Entornos%20de%20Desarrollo/)
-- [Fundamentos de Computación en la Nube](./Fundamentos%20de%20Computaci%C3%B3n%20en%20la%20Nube/)
-
-### Unidades de trabajo
-
-- [U.T. 1 · Arquitectura y componentes del PC](./Sistemas%20Informáticos/U.T.%201.-%20Arquitectura%20y%20componentes%20del%20PC/)
+- 📂 Una carpeta principal por módulo.
+- 📚 Subdirectorios para unidades y actividades.
+- 📝 Separación entre teoría, ejercicios y prácticas.
+- 🏷️ Nombres descriptivos y consistentes.
+- 🔗 Enlaces internos actualizados.
+- 🧹 Evitar duplicidades y archivos innecesarios.
 
 ---
 
 ## 🌿 Control de versiones
 
-El repositorio utiliza **Git y GitHub** para gestionar los cambios, mantener un historial de modificaciones y almacenar el material académico.
+El repositorio utiliza **Git y GitHub** para gestionar las modificaciones, mantener un historial de cambios y centralizar los contenidos.
 
-### Flujo de trabajo
+### 🔄 Flujo de trabajo
 
 ```text
-Modificar archivos
-       │
-       ▼
-  git status
-       │
-       ▼
-    git add
-       │
-       ▼
-   git commit
-       │
-       ▼
-    git push
+       ✏️ Modificación de archivos
+                  │
+                  ▼
+             git status
+                  │
+                  ▼
+               git add
+                  │
+                  ▼
+             git commit
+                  │
+                  ▼
+              git push
+                  │
+                  ▼
+             ☁️ GitHub
 ```
 
-### Ejemplo de uso
+### 💻 Comandos habituales
+
+<details>
+<summary><strong>1. Consultar el estado del repositorio</strong></summary>
 
 ```bash
-# Consultar el estado del repositorio
 git status
+```
 
-# Preparar los cambios
+</details>
+
+<details>
+<summary><strong>2. Preparar los cambios</strong></summary>
+
+```bash
 git add .
+```
 
-# Registrar los cambios
-git commit -m "docs: actualizar README"
+</details>
 
-# Subir los cambios a GitHub
+<details>
+<summary><strong>3. Registrar los cambios</strong></summary>
+
+```bash
+git commit -m "docs: actualizar documentación"
+```
+
+</details>
+
+<details>
+<summary><strong>4. Publicar los cambios en GitHub</strong></summary>
+
+```bash
 git push
 ```
 
-### Convenciones de commits
+</details>
 
-| Prefijo | Uso | Ejemplo |
+### 🏷️ Convenciones de commits
+
+Se utiliza una nomenclatura basada en prefijos para identificar el propósito de cada modificación.
+
+| Prefijo | Descripción | Ejemplo |
 |:---|:---|:---|
-| `feat:` | Incorporar contenido nuevo. | `feat: añadir ejercicios de programación` |
-| `docs:` | Actualizar documentación. | `docs: actualizar README` |
-| `fix:` | Corregir errores. | `fix: corregir solución de ejercicio` |
-| `refactor:` | Reorganizar archivos o código. | `refactor: reorganizar prácticas` |
-| `chore:` | Realizar tareas de mantenimiento. | `chore: ordenar directorios` |
+| ✨ `feat:` | Incorporación de contenido nuevo. | `feat: añadir ejercicios` |
+| 📝 `docs:` | Actualización de documentación. | `docs: actualizar README` |
+| 🐛 `fix:` | Corrección de errores. | `fix: corregir ejercicio` |
+| ♻️ `refactor:` | Reorganización de archivos o código. | `refactor: reorganizar prácticas` |
+| 🔧 `chore:` | Tareas de mantenimiento. | `chore: ordenar directorios` |
 
 ---
 
-## 📚 Documentación de prácticas
+## 📝 Documentación de prácticas
 
-Las unidades de trabajo y las prácticas que necesiten explicaciones adicionales podrán incluir su propio archivo `README.md`.
+Las unidades de trabajo y las actividades que requieran explicaciones adicionales podrán incorporar su propio archivo `README.md`.
 
-Como referencia, se propone la siguiente estructura:
+### 📋 Plantilla recomendada
 
 ```markdown
 # Nombre de la práctica
 
-## Objetivo
+## 🎯 Objetivo
 
 Descripción de la finalidad de la actividad.
 
-## Requisitos
+## ⚙️ Requisitos
 
-Herramientas, conocimientos y recursos necesarios.
+Herramientas y recursos necesarios.
 
-## Desarrollo
+## 💻 Desarrollo
 
 Explicación del procedimiento seguido.
 
-## Resultado
+## 📊 Resultado
 
 Descripción del resultado obtenido.
 
-## Conclusiones
+## 📚 Conclusiones
 
-Conceptos aprendidos y aspectos relevantes.
+Conceptos aprendidos y observaciones.
 ```
 
-Esta plantilla es orientativa y puede adaptarse a las características de cada actividad.
+<details>
+<summary><strong>💡 Recomendaciones para documentar actividades</strong></summary>
+
+- Explicar claramente el objetivo de la práctica.
+- Indicar las herramientas utilizadas.
+- Documentar los pasos más importantes.
+- Incluir capturas cuando aporten información.
+- Describir el resultado obtenido.
+- Añadir conclusiones relevantes.
+
+</details>
 
 ---
 
-## 🔧 Convenciones de archivos
+## 📐 Convenciones de archivos
 
-Se recomienda utilizar nombres claros que permitan identificar rápidamente el contenido.
+Se recomienda utilizar nombres breves, descriptivos y consistentes.
 
-### Ejemplos recomendados
-
-```text
-README.md
-documentacion.md
-ejercicio-01.md
-practica-01/
-solucion.java
-script.sql
-```
-
-### Nombres que conviene evitar
-
-```text
-cosa.txt
-nuevo.txt
-final.txt
-final-final.txt
-prueba2.txt
-```
-
-Cuando sea posible, se utilizarán nombres relacionados con el tema, el número de actividad o el propósito del archivo.
+| ✅ Recomendados | ❌ Evitar |
+|:---|:---|
+| `README.md` | `nuevo.txt` |
+| `documentacion.md` | `cosa.txt` |
+| `ejercicio-01.md` | `prueba2.txt` |
+| `practica-01/` | `final-final/` |
+| `solucion.java` | `archivo-nuevo.java` |
+| `script.sql` | `final2.sql` |
 
 ---
 
-## 📖 Recursos de referencia
+## 🔗 Recursos
 
-### Desarrollo web y lenguajes de marcas
+Documentación oficial y referencias técnicas complementarias para los diferentes módulos.
+
+<details open>
+<summary><strong>🌐 Desarrollo web y estándares</strong></summary>
 
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [W3C](https://www.w3.org/)
 
-### Programación
+</details>
 
-- [Documentación oficial de Java](https://docs.oracle.com/en/java/)
-- [Documentación de Python](https://docs.python.org/es/)
+<details>
+<summary><strong>💻 Programación</strong></summary>
 
-### Bases de datos
+- [Java Documentation](https://docs.oracle.com/en/java/)
+- [Python Documentation](https://docs.python.org/es/)
 
-- [Documentación oficial de MySQL](https://dev.mysql.com/doc/)
+</details>
 
-### Git y GitHub
+<details>
+<summary><strong>🗄️ Bases de datos</strong></summary>
 
-- [Documentación de Git](https://git-scm.com/doc)
-- [Documentación de GitHub](https://docs.github.com/)
+- [MySQL Documentation](https://dev.mysql.com/doc/)
+
+</details>
+
+<details>
+<summary><strong>🌿 Control de versiones</strong></summary>
+
+- [Git Documentation](https://git-scm.com/doc)
+- [GitHub Documentation](https://docs.github.com/)
+
+</details>
 
 ---
 
 ## 🔄 Mantenimiento y evolución
 
-El repositorio se actualizará conforme se incorporen nuevos materiales y se desarrollen las actividades académicas.
+El repositorio se actualizará conforme avance el desarrollo del ciclo formativo.
 
 Las actualizaciones podrán incluir:
 
-- Nuevos ejercicios y prácticas.
-- Ampliaciones del material existente.
-- Nuevas unidades de trabajo.
-- Correcciones y mejoras de documentación.
-- Reorganización de directorios.
-- Incorporación de recursos complementarios.
+- ➕ Incorporación de nuevos módulos y unidades.
+- 📚 Ampliación de apuntes y documentación.
+- 💻 Nuevos ejercicios y prácticas.
+- 🐛 Corrección y revisión de contenidos.
+- 🗂️ Reorganización de directorios.
+- 🔗 Incorporación de recursos complementarios.
 
-La estructura se ampliará a medida que existan contenidos que justifiquen la creación de nuevas carpetas o secciones.
+El objetivo es mantener una estructura clara, coherente y escalable que facilite la consulta y conservación del material académico.
 
 ---
 
-## 📄 Autoría y derechos de autor
+## 👤 Autoría
 
-© **Alejandro Guerra Abán**. Todos los derechos reservados, salvo indicación expresa en contrario.
+**© 2026 Alejandro Guerra Abán. Todos los derechos reservados, salvo indicación expresa en contrario.**
 
-El material de este repositorio se destina a fines académicos y de consulta personal. Los derechos sobre los contenidos corresponden a sus respectivos autores.
+Este repositorio tiene una finalidad académica y de consulta personal.
+
+Los derechos de los contenidos propios corresponden a su autor. Los materiales de terceros conservan sus respectivas condiciones de autoría y licencia.
 
 La reproducción, redistribución, publicación, comercialización o modificación de los materiales propios queda sujeta a las condiciones aplicables y, cuando corresponda, a la autorización expresa de su autor.
-
-Los materiales de terceros conservan sus respectivas condiciones de autoría y licencia.
 
 ---
 
@@ -328,18 +488,28 @@ Los materiales de terceros conservan sus respectivas condiciones de autoría y l
 
 El repositorio incluye un archivo [`LICENSE`](./LICENSE) con las condiciones de uso aplicables.
 
-Antes de utilizar, modificar o redistribuir cualquier contenido, consulta dicho archivo y comprueba las condiciones específicas de los materiales correspondientes.
+Antes de utilizar, modificar o redistribuir cualquier contenido, consulta dicho archivo y comprueba las condiciones específicas de cada material.
 
 ---
 
 <div align="center">
 
-### WEB1
+## 💻 WEB1
 
 **Desarrollo de Aplicaciones Web**
 
-`Código` · `Ejercicios` · `Prácticas` · `Documentación` · `Aprendizaje`
+*Código · Tecnología · Desarrollo · Aprendizaje*
 
-© 2026 **Alejandro Guerra Abán**
+<br>
+
+<a href="https://github.com/Alejandro-Guerra-Aban/WEB1">
+  <img src="https://img.shields.io/badge/Ver_repositorio-WEB1-181717?style=for-the-badge&logo=github" alt="Ver repositorio WEB1">
+</a>
+
+<br><br>
+
+**© 2026 Alejandro Guerra Abán**
+
+<sub>Material académico · DAW</sub>
 
 </div>
