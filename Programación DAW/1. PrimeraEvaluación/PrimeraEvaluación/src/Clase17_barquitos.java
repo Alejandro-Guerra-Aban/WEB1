@@ -17,6 +17,19 @@ public class Clase17_barquitos {
         jugar_02(tablero);
         System.out.println("------------------------------------");
         mostrar(tablero); // Llamamos al método mostrar y le pasamos como parametro el tablero que acabamos de crear para poder obtener en la salida el tablero que acabamos de crear
+        int a = 5;
+        String cadena = "" + a;
+        
+        cadena = String.valueOf(a);
+        cadena = Integer.toString(a);
+        
+        char aux[] = {'c','a','d','e','n','a'};
+        cadena = String.valueOf(aux);
+        
+        cadena = String.valueOf(aux);
+        
+        System.out.println(cadena);
+        
         System.out.println("Fin");
     }
     
