@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<!-- Indica al navegador que el documento utiliza HTML5. -->
+<html lang="es">
+<!-- lang="es" declara que el contenido principal está escrito en español. -->
+<head>
+    <!-- El conjunto UTF-8 permite mostrar correctamente tildes y caracteres como ñ o € y pasa por encima. -->
+    <meta charset="UTF-8">
+    <!-- Permite que la página se adapte al ancho de móviles y tablets. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Texto resumido que pueden mostrar los buscadores al indexar la página. -->
+    <meta name="description" content="Agencia de viajes con paquetes a París, Roma y Tokio.">
+    <!-- Texto que aparece en la pestaña del navegador. -->
+    <title>Aventura Total | Agencia de Viajes</title>
+    <!-- Vincula el archivo CSS externo que aplica los estilos visuales. -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Vincula el icono pequeño que se mostrará en la pestaña del navegador. -->
+    <link rel="icon" href="media/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- El encabezado contiene el menú superior y aparece en todas las páginas del sitio. -->
+    <header>
+        <!-- nav agrupa los enlaces de navegación; aria-label mejora su descripción para lectores de pantalla. -->
+        <nav class="contenedor" aria-label="Navegación principal">
+            <!-- Enlace que lleva a la portada y sirve como nombre o logotipo textual. -->
+            <a class="marca" href="index.html">Aventura Total</a>
+            <!-- Lista desordenada: la usamos para organizar visualmente las opciones del menú. -->
+            <ul>
+                <!-- activo identifica visualmente la página que se está visitando. -->
+                <li><a class="activo" href="index.html">Inicio</a></li>
+                <li><a href="paris.html">París</a></li>
+                <li><a href="roma.html">Roma</a></li>
+                <li><a href="tokio.html">Tokio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main contiene el contenido principal único de esta página. -->
+    <main>
+        <!-- section agrupa el contenido relacionado del banner de bienvenida. -->
+        <section class="hero">
+            <!-- contenedor interior centrado para titular y descripción. -->
+            <div class="hero-contenido">
+                <h1>Tu próxima aventura empieza aquí</h1>
+                <p>Descubre ciudades fascinantes, vive experiencias únicas y elige el alojamiento que mejor se adapte a ti.</p>
+            </div>
+        </section>
+
+        <!-- contenedor general que limita el ancho del contenido y lo centra. -->
+        <div class="contenedor">
+            <!-- Sección de destinos: article representa cada tarjeta independiente. -->
+            <section id="destinos">
+                <h2>Elige tu destino</h2>
+                <p>Hemos seleccionado tres ciudades llenas de cultura, gastronomía y lugares imprescindibles. Pulsa sobre una imagen para conocer los detalles de cada viaje.</p>
+
+                <!-- Agrupa las tres tarjetas para colocarlas con el diseño de columnas del CSS. -->
+                <div class="tarjetas">
+                    <!-- Tarjeta semántica independiente para París. -->
+                    <article class="tarjeta">
+                        <!-- La propia imagen es un enlace hacia la página París. -->
+                        <a href="paris.html" aria-label="Ver viaje a París">
+                            <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=900&q=80" alt="Vista de la Torre Eiffel en París">
+                        </a>
+                        <div>
+                            <h3>París, Francia</h3>
+                            <p>Arte, moda y paseos junto al río Sena en la Ciudad de la Luz.</p>
+                            <!-- Botón visual creado con un enlace que abre la página del destino. -->
+                            <a class="boton" href="paris.html">Ver París</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta semántica independiente para Roma. -->
+                    <article class="tarjeta">
+                        <a href="roma.html" aria-label="Ver viaje a Roma">
+                            <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=900&q=80" alt="El Coliseo de Roma al atardecer">
+                        </a>
+                        <div>
+                            <h3>Roma, Italia</h3>
+                            <p>Monumentos antiguos, plazas históricas y una gastronomía inolvidable.</p>
+                            <a class="boton" href="roma.html">Ver Roma</a>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta semántica independiente para Tokio. -->
+                    <article class="tarjeta">
+                        <a href="tokio.html" aria-label="Ver viaje a Tokio">
+                            <img src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?auto=format&fit=crop&w=900&q=80" alt="Vista nocturna de Tokio">
+                        </a>
+                        <div>
+                            <h3>Tokio, Japón</h3>
+                            <p>Tecnología, tradición y barrios llenos de vida en la capital japonesa.</p>
+                            <a class="boton" href="tokio.html">Ver Tokio</a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Sección que contiene un vídeo externo incrustado desde YouTube. -->
+            <section>
+                <h2>Inspírate antes de viajar</h2>
+                <p>Observa algunos de los paisajes y experiencias que podrás encontrar durante tu viaje.</p>
+                <div class="video">
+                    <!-- iframe carga otra página web dentro de la actual. -->
+                    <iframe
+                        src="https://www.youtube.com/embed/0GZSfBuhf6Y"
+                        title="Video turístico de destinos alrededor del mundo"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </section>
+
+            <!-- Sección de precios organizada mediante una tabla HTML. -->
+            <section id="precios">
+                <h2>Precios por destino y alojamiento</h2>
+                <p>Los precios son orientativos por persona y pueden variar según la temporada, la duración y las fechas elegidas.</p>
+                <!-- Contenedor que permite desplazar horizontalmente la tabla en pantallas pequeñas. -->
+                <div class="tabla-contenedor">
+                    <table>
+                        <!-- thead contiene los títulos de las columnas. -->
+                        <thead>
+                            <tr>
+                                <th>Destino</th>
+                                <th>Alojamiento económico</th>
+                                <th>Hotel 4 estrellas</th>
+                                <th>Experiencia premium</th>
+                            </tr>
+                        </thead>
+                        <!-- tbody contiene las filas con los datos reales de precios. -->
+                        <tbody>
+                            <tr>
+                                <td>París</td>
+                                <td>680 €</td>
+                                <td>940 €</td>
+                                <td>1.250 €</td>
+                            </tr>
+                            <tr>
+                                <td>Roma</td>
+                                <td>520 €</td>
+                                <td>790 €</td>
+                                <td>1.180 €</td>
+                            </tr>
+                            <tr>
+                                <td>Tokio</td>
+                                <td>1.150 €</td>
+                                <td>1.550 €</td>
+                                <td>2.150 €</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Formulario para solicitar información mediante el método POST. -->
+            <section id="contacto">
+                <h2>Solicita información</h2>
+                <p>Completa tus datos y nuestro equipo podrá enviarte una propuesta adaptada a tus preferencias.</p>
+                <!-- action indica la página a la que se envía el formulario; method="post" usa el método HTTP POST. -->
+                <form action="gracias.html" method="post">
+                    <!-- Cada div agrupa una etiqueta con su campo correspondiente. -->
+                    <div>
+                        <!-- for conecta la etiqueta con el input mediante el mismo valor que su id. -->
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <!-- type="tel" ofrece un teclado apropiado para introducir teléfonos en móviles. -->
+                        <input type="tel" id="telefono" name="telefono" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo electrónico</label>
+                        <!-- type="email" obliga al navegador a comprobar el formato básico de correo. -->
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <!-- type="submit" envía los datos al destino definido en action. -->
+                    <button type="submit">Enviar solicitud</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- El pie de página muestra información final y derechos. -->
+    <footer>
+        <div class="contenedor">
+            <p>Aventura Total · Tu agencia para descubrir el mundo</p>
+        </div>
+        <!-- &copy; genera el símbolo ©. -->
+        <p>&copy; 2026 Alejandro Guerra Abán. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

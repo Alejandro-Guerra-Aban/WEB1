@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Información y planes de viaje a Roma.">
+    <title>Viaje a Roma</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel= "icon" href = "media/favicon.png" type = "image">
+</head>
+<body class="pagina-destino destino-roma">
+    <!--
+    Esta página describe el destino Roma.
+    - El contenedor hero muestra el título sobre una imagen de fondo.
+    - Las secciones explican historia, gastronomía y actividades.
+    - La tabla compara varios tipos de alojamiento.
+    - Los enlaces permiten navegar de vuelta al menú principal.
+    -->
+
+    <header>
+        <nav class="contenedor" aria-label="Navegación principal">
+            <a class="marca" href="index.html">Aventura Total</a>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="paris.html">París</a></li>
+                <li><a class="activo" href="roma.html">Roma</a></li>
+                <li><a href="tokio.html">Tokio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-contenido">
+                <h1>Roma, Italia</h1>
+                <p>Una ciudad milenaria llena de monumentos, sabores y plazas.</p>
+            </div>
+</section>
+
+        <div class="contenedor">
+            <section>
+                <h2>Historia a cada paso</h2>
+                <p>Desde el Coliseo hasta el Foro Romano, Roma permite viajar por diferentes épocas en una sola caminata. También podrás visitar la Fontana di Trevi, la Plaza Navona y la emblemática Ciudad del Vaticano.</p>
+            </section>
+
+            <section>
+                <h2>Qué puedes descubrir</h2>
+                <p>Prueba una auténtica pasta carbonara, disfruta de un helado artesanal y dedica una tarde a explorar barrios como Trastevere. Nuestro paquete incluye una ruta histórica guiada y tiempo libre para comer a tu ritmo.</p>
+            </section>
+
+            <section>
+                <h2>Precios orientativos</h2>
+                <div class="tabla-contenedor">
+                    <table>
+                        <caption>Estancia de 4 noches por persona</caption>
+                        <thead>
+                            <tr>
+                                <th>Alojamiento</th>
+                                <th>Servicios</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>Hostal céntrico</td><td>Visita guiada básica</td><td>520 €</td></tr>
+                            <tr><td>Hotel 4 estrellas</td><td>Desayuno y traslados</td><td>790 €</td></tr>
+                            <tr><td>Apartamento premium</td><td>Guía privado y entradas</td><td>1.180 €</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section>
+                <a class="boton" href="index.html">Volver a los destinos</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <p>Aventura Total · Descubre Roma con nosotros</p>
+        </div>
+        <p>&copy; 2026 Alejandro Guerra Abán. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
