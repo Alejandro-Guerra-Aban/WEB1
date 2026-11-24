@@ -232,7 +232,7 @@ Material dedicado al aprendizaje de los lenguajes de marcas y las tecnologías u
 
 **Acceso a las prácticas:**
 
-[📂 Directorio de prácticas](./WEB1-Lenguajes%20de%20Marcas/)
+[📂 Directorio de prácticas](./WEB1-Lenguajes%20de%20Marcas/Tema%201.%20Lenguajes%20de%20Visualización%20(HTML%20y%20MarkDown)/EJERCICIOS)
 
 </details>
 
@@ -261,7 +261,7 @@ Proyecto práctico de desarrollo web basado en una agencia de viajes, con difere
 
 **Acceso al proyecto:**
 
-[📂 Agencia de viajes](./WEB1-Lenguajes%20de%20Marcas/PRÁCTICA%20AGENCIA%20DE%20VIAJES/)
+[📂 Agencia de viajes](./WEB1-Lenguajes%20de%20Marcas/Tema%201.%20Lenguajes%20de%20Visualización%20(HTML%20y%20MarkDown)/EJERCICIOS/PRÁCTICA%20AGENCIA%20DE%20VIAJES)
 
 </details>
 
